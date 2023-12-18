@@ -1,6 +1,7 @@
 # Configuration for Cog
 build:
   gpu: true
+  cuda: "11.8"
   python_version: "3.11"
   python_packages:
     - "torch==2.0.1"
